@@ -1,0 +1,24 @@
+# Ignorowanie wirtualnego środowiska
+.venv/
+env/
+venv/
+
+# Ignorowanie plików baz danych
+*.sqlite3
+
+# Ignorowanie plików tymczasowych
+__pycache__/
+*.py[cod]
+
+# Ignorowanie plików logów
+*.log
+
+# Ignorowanie ustawień lokalnych i tajnych kluczy
+.env
+
+# Ignorowanie plików statycznych, jeśli są generowane automatycznie
+/static/
+
+# Ignorowanie plików tymczasowych edytora
+.idea/
+.vscode/
